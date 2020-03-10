@@ -1,0 +1,105 @@
+<app-header></app-header>
+<div class="espacioArriba"></div>
+
+<!-- ******************************************************************************* -->
+<!-- <div class="row">
+    <div class="col-3">
+        <div class="card text-white bg-info mb-3 espacioIzquierda" style="width: 20rem;">
+            <div class="card-header">Cantidad De Tweets</div>
+            <div class="card-body">
+                <h4 class="card-title ">{{tweetCount}}</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-3">
+        <div class="card text-white bg-success mb-3 espacioIzquierda" style="width: 20rem;">
+            <div class="card-header">Cantidad De Tweets Positivos</div>
+            <div class="card-body">
+                <h4 class="card-title">{{tweetCountPositive}}</h4>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-3">
+        <div class="card text-white bg-danger mb-3 espacioIzquierda" style="width: 20rem;">
+            <div class="card-header">Cantidad De Tweets Negativo</div>
+            <div class="card-body">
+                <h4 class="card-title">{{tweetCountNegative}}</h4>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-3">
+        <div class="card text-white bg-warning mb-3 espacioDrecha" style="width: 20rem;">
+            <div class="card-header">Cantidad De Tweets Neutros</div>
+            <div class="card-body">
+                <h4 class="card-title">{{tweetCountNeutral}}</h4>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- ******************************************************************************* -->
+<div class="container">
+    <div class="row espacioArriba text-center">
+        <div class="col">
+            <p>Informacion General</p>
+            <hr>
+        </div>
+    </div>
+</div>
+
+<div class="row espacioAbajo">
+    <div class="col" size="6">
+        Cantidad de tweets por tematica
+    </div>
+    <div class="col" size="6">
+        Cantidad de tweets por idioma
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col" size="6">
+        <app-lines></app-lines>
+    </div>
+    <div class="col" size="6">
+       <app-pielanguage></app-pielanguage>
+    </div>
+</div>
+
+<!-- ********************************************************* -->
+
+
+<div class="container">
+    <div class="row espacioArriba text-center">
+        <div class="col">
+            <p>Informacion General</p>
+            <hr>
+        </div>
+    </div>
+</div>
+
+<div class="row espacioAbajo">
+    <div class="col" size="6">
+        Cantidad de tweets por Influencer
+    </div>
+    <div class="col" size="6">
+        Cantidad de tweets por ciudad
+    </div>
+</div>
+
+
+<div class="row espacioAbajoFinal">
+    <div class="col" size="6">
+        <app-table></app-table>
+    </div>
+    <div class="col" size="6">
+        <app-lines></app-lines>
+    </div>
+</div>
+
+<app-footer></app-footer>

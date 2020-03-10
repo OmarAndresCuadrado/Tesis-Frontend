@@ -1,0 +1,115 @@
+<app-header></app-header>
+<div class="row espacioArriba">
+    <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+    </div>
+</div>
+<h2 class="text-warning espacioabajopeque">Goolden Seed</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+            <img src="/assets/img/final.gif" class="imgpropertiesdos img-fluid" alt="...">
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col text-justify text-dark">
+                <p> Golden Seed es una herramienta de bajo costo y de fácil que permite realizar análisis de sentimiento (por medio de algoritmos de inteligencia artificial integrados) a comentarios de la red social Twitter (tweets), con el propósito de poder
+                    identificar oportunidades de emprendimiento e inversión teniendo como referente la clasificación (positiva, negativo o neutro) a dichos Tweets.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center text-black espacioArriba">
+                <h3 class="text-warning"> ¿Como esta construida Golden Seed? </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center text-dark">
+                <p> Golden seed esta desarrollada en las siguientes tecnolgias </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+                <img src="/assets/img/arquitectura.jpg" class="imgproperties img-fluid" alt="...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center text-black ">
+                <h3 class="text-warning"> ¿Como se diferencia golden seed de otras herramientas? </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-justify text-dark espacioArriba">
+                <p> Tres de las principales características que resaltan a Golden Seed de otras aplicaciones web en el mercado, son su facilidad de uso, el costo de la aplicación y su rapidez para la recolección, procesamiento y análisis de sentimiento a
+                    los comentarios (tweets) de la red social Twitter.</p>
+            </div>
+        </div>
+        <div class="row espacioAbajo">
+            <div class="col text-center text-black ">
+                <h3 class="text-warning"> ¿Como golden seed realiza el analisis de sentimientos? </h3>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+                <img src="/assets/img/analisis.jpg" class="imgproperties img-fluid" alt="...">
+            </div>
+        </div>
+        <h3 class="text-warning"> Explicacion </h3>
+        <div class="row espacioAbajo">
+            <div class="col text-justify text-dark ">
+                <p> 1) Golden seed: Se realiza una conexión en el API REST de Twitter por medio de la aplicación Golden Seed donde se envía un parámetro de búsqueda para encontrar tweets </p>
+                <p> 2) Twitter API REST: El API REST de Twitter responde a la petición de Golden Seed mostrando los tweets encontrados de acuerdo al criterio de búsqueda. </p>
+                <p> 3) JSON Response: Una vez se reciba la información por parte del API-REST de Twitter, la aplicación recibirá un de tipo .json, dicho archivo tendrá contenido los diferentes tweets extraídos de acuerdo a la búsqueda realizada por el usuario
+                </p>
+                <p> 4) Inteligencia artificial: El archivo. Json recibido se procesará con la finalidad de poder extraer la información valiosa de la estructura del archivo contenedor de Tweets, para ello se extraerán los atributos más relevantes del cuerpo
+                    del tweet tales como: nombre, comentario, ubicación y idioma de cada tweet </p>
+                <p> 5) Procesamiento: Una vez los atributos esenciales del tweet son extraídos, lo siguiente es procesar cada tweet para retirar cada carácter especial (emojis) dentro del contenido del tweet para así poder ser analizado correctamente por
+                    la inteligencia artificial</p>
+                <p> 6) Inteligencia Artificial: Una vez el tweet se encuentra en esta etapa será analizado por el algoritmo de inteligencia artificial para poder definir su sentimiento, el cual será clasificado positivo, neutro o negativo de acuerdo a su
+                    contenido. </p>
+                <p> 7) Persistencia: Una vez el tweet es clasificado, el último paso será el almacenamiento del tweet en la base de datos para su posterior uso. </p>
+            </div>
+        </div>
+        <div class="row espacioAbajo">
+            <div class="col text-center text-black ">
+                <h3 class="text-warning"> ¿Por que los servicios de Microsoft Azure para realizar analisis de sentimiento son una buena opcion? </h3>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+                <img src="/assets/img/algoritmos.jpg" class="imgproperties img-fluid" alt="...">
+            </div>
+        </div>
+        <div class="row espacioAbajo">
+            <div class="col text-justify text-dark espacioArriba">
+                <p> La razón por la cual se ha elegido este algoritmo es debido a sus múltiples ventajas que ofrece para suplir las diferentes funcionalidades del software y su vez el alcance del proyecto; funcionalidades como:
+                </p>
+                <p> • Consultas con múltiples lenguajes.</p>
+                <p> • Análisis de grandes volúmenes de información.</p>
+                <p> • Velocidad de procesamiento.</p>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- <div class="row">
+
+    <div class="col" size="6">
+        <p>algo</p>
+        <button type="button" class="btn btn-primary" [routerLink]="['/register']">Registro</button>
+    </div>
+
+    <div class="col" size="6">
+        <p>algo</p>
+        <button type="button" class="btn btn-outline-primary" [routerLink]="['/login']">Ingresar</button>
+    </div>
+</div> -->
+
+
+
+
+    <app-footer></app-footer>

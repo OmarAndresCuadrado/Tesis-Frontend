@@ -1,0 +1,39 @@
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width:  950px;
+     height: 500px;
+  }
+  
+  
+  .imgproperties {
+     width:  450px;
+     height: 400px;
+  }
+  
+  .imgredonda {
+    border-radius: 50%;
+    width:  300px;
+    height: 300px;
+  }
+  
+  .espacioAbajo {
+    padding-bottom: 10px;
+  }
+  .espacioAbajoFinal {
+    padding-bottom: 80px;
+  }
+  
+  .espacioArriba {
+    padding-top: 50px;
+  }
+  
+  .espacioIzquierda {
+    padding-left: 40px;
+  }
+  
+  .espacioD {
+    padding-right: 10px;
+  }

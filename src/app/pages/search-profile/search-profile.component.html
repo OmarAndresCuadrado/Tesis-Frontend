@@ -1,0 +1,65 @@
+<app-header></app-header>
+
+<div class="container">
+    <div class="row lg-12 espacioArriba espacioAbajo">
+        <div class="col-lg-12 lg-12">
+            <img src="/assets/img/final.gif" class="imgproperties" alt="...">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+            <form>
+                <div class="form-group">
+                    <input type="text" [(ngModel)]="tweet.query" name="query" class="form-control" placeholder="Ingresa el nombre de cuenta de Twitter">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-12 espacioAbajo espacioArriba">
+            <i class="fa fa-search espacioGil"></i>
+            <button type="submit" class="btn btn-warning espacioDrecha" (click)="searchProfile()"> Buscar</button>
+            <button type="submit" class="btn btn-outline-warning" routerLink="/home"> Aprende sobre mi! </button>
+        </div>
+    </div>
+
+    <div class="container-bg">
+        <div class="container">
+            <h2 class="espacioAbajo text-dark"> Tweets Encontrados </h2>
+            <div class="row scroll">
+                <div class="col-md-12 col-lg-4 col-sm-12 text-center espacioAbajo" *ngFor="let arreglo of tweets">
+                    <div class="card border-warning" style="width: 20rem; height: 40rem">
+                        <div class="card-body">
+                            <img src="{{arreglo.urlProfileImage}}" class="center mediana espacioImagen rounded-circle">
+                            <h5 class="card-title text-center">{{arreglo.accountName}}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted text-center">@{{arreglo.user}}</h6>
+                            <h6 class="card-subtitle mb-2 text-muted text-left">Ubicacion: {{arreglo.location}}</h6>
+                            <h6 class="card-subtitle mb-2 text-muted text-left">Clasificacion: {{arreglo.sentimentTweet}} </h6>
+                            <h6 class="card-subtitle mb-2 text-muted text-left">Idioma: {{arreglo.language}} </h6>
+                            <h6 class="card-subtitle mb-2 text-muted text-left">Hasthag: {{arreglo.hashtag}} </h6>
+                            <p class="card-text text-justify"> {{arreglo.tweetContect}} </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="espacioArriba"> </div>
+    <div class="container ">
+        <div class="row">
+            <div class="col-12 espacioArriba">
+            </div>
+        </div>
+    </div>
+
+    <app-footer></app-footer>
+
+
+
+</div>

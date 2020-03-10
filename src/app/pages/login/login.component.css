@@ -1,0 +1,42 @@
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width:  950px;
+     height: 500px;
+  }
+  
+  
+  .imgproperties {
+     width:  600px;
+     height: 550px;
+  }
+  
+  .imgredonda {
+    border-radius: 50%;
+    width:  100px;
+    height: 100px;
+  }
+  
+  .espacioAbajo {
+    padding-bottom: 10px;
+  }
+  
+  .espacioArriba {
+    padding-top: 50px;
+  }
+  
+  .espacioIzquierda {
+    padding-left: 10px;
+  }
+  
+  .espacioD {
+    padding-right: 10px;
+  }
+
+  .imgredondasemilla {
+    border-radius: 34%;
+    width:  190px;
+    height: 150px;
+  }

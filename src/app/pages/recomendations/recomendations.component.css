@@ -1,0 +1,135 @@
+.text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+
+  img.izquierda {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  img.derecha {
+    float: right;
+    margin-left: 20px;
+  }
+  
+  .espacioAbajo {
+    margin-bottom: 40px;
+  }
+  
+  .espacioArriba {
+    margin-top: 40px;
+  }
+  
+  .espacioIzquierda {
+    margin-left: 40px;
+  }
+  
+  .espacioImagen{
+    margin-top: 14px;
+  }
+  
+  .espacioDrecha{
+    margin-right: 40px;
+  }
+
+  .espacioDrecha2{
+    margin-right: 20px;
+  }
+  
+  img {
+    margin-bottom: 20px;
+  }
+  
+  .pequena{
+    width: 50px; height: 50px;
+  }
+  .mediana{
+    width: 100px; height: 100px;
+  }
+  .grande{
+    width: 200px; height: 200px;
+  }
+  
+  h2 {
+    clear: both;
+  }
+  
+  .container-bg {
+    background: rgb(194, 193, 193);
+  }
+
+  .scroll {
+    height: 500px;
+    overflow-y: auto;
+}
+
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width:  950px;
+   height: 500px;
+}
+
+
+.imgproperties {
+   width:  450px;
+   height: 550px;
+}
+
+.imgredonda {
+  border-radius: 30%;
+  width:  200px;
+  height: 160px;
+}
+
+.espacioAbajo {
+  padding-bottom: 10px;
+}
+
+.espacioArriba {
+  padding-top: 2px;
+}
+
+.espacioIzquierda {
+  padding-left: 10px;
+}
+
+.espacioD {
+  padding-right: 10px;
+}
+
+
+
+.espacioGil {
+  padding-right: 10px;
+}
+
+.espaciocentroboton {
+    padding-left: 450px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.styled-select.slate {
+  height: 34px;
+  width: 240px;
+}

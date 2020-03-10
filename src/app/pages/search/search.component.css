@@ -1,0 +1,130 @@
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img.izquierda {
+    float: left;
+    margin-right: 20px;
+}
+
+img.derecha {
+    float: right;
+    margin-left: 20px;
+}
+
+.espacioAbajo {
+    margin-bottom: 40px;
+}
+
+.espacioArriba {
+    margin-top: 40px;
+}
+
+.espacioIzquierda {
+    margin-left: 40px;
+}
+
+.espacioImagen {
+    margin-top: 14px;
+}
+
+.espacioDrecha {
+    margin-right: 40px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+.pequena {
+    width: 50px;
+    height: 50px;
+}
+
+.mediana {
+    width: 100px;
+    height: 100px;
+}
+
+.grande {
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    clear: both;
+}
+
+.container-bg {
+    background: rgba(212, 209, 209, 0.63);
+}
+
+.scroll {
+    height: 500px;
+    overflow-y: auto;
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 950px;
+    height: 500px;
+}
+
+.imgproperties {
+    border-radius: 10%;
+    width: 350px;
+    height: 300px;
+}
+
+.imgredonda {
+    border-radius: 30%;
+    width: 170px;
+    height: 120px;
+}
+
+.espacioAbajo {
+    padding-bottom: 40px;
+}
+
+.espacioArriba {
+    padding-top: 2px;
+}
+
+.espacioIzquierda {
+    padding-left: 10px;
+}
+
+.espacioD {
+    padding-right: 10px;
+}
+
+.espacioGil {
+    padding-right: 10px;
+}
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    width: 15rem;
+    height: 30rem;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.espacioIzquierdaBarra {
+    margin-left: 200px;
+}
